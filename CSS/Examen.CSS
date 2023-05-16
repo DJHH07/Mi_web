@@ -1,0 +1,99 @@
+/* cabezera */
+.header-encabezada{
+    display: flex;
+    height: 8rem;
+    width: 100%;
+}
+/* para la seccion que esta dentro de header al lado derecho */
+.section-izquierda{
+    width: 8rem;
+}
+/* para la seccion que esta dentro de header al lado derecho */
+.section-derecha{
+    background-color:cadetblue;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    letter-spacing: 6px;
+
+}
+/* para la imagen de la cabecera */
+.img{
+    height: 8rem;
+    width: 8rem;
+}
+/* para la sub cabecera */
+.subcabecera{
+    background-color:gray;
+    height: 5rem;
+    width: 100%;
+    
+}
+/* nav de la subcadena */
+.nav-subcadena{
+    display: flex;
+    margin-top: 1.2px;
+}
+/* para los ol de la subcadena */
+.ol-subcadena{
+    background-color: black;
+    margin-left: 2rem;
+    color: white;
+    text-align: center;
+    width: 8rem;
+    height:1.6rem;
+    padding-top: .05%;
+    font-family:cursive ;
+    margin-top: 1.5rem;
+
+}
+/* nav cuerpo de la paguina */
+.nav-cuerpo{
+    background-color: aqua;
+    display: flex;
+    margin-top: .2rem;
+    width: 100%;
+    height: 30rem;
+}
+.img-cuepo-derecho{
+    height: 104.8%;
+    width: 131%;
+    margin-left: -2rem;
+    margin-top: -.6rem;
+    margin-right: 60px;
+}
+/* ol del cuerpo de la pagina barra izquierda  */
+.ol-cuerpo-izquierda{
+    background-color: cadetblue;
+    height: 29.3rem;
+    width: 12%;
+    margin-top: .4rem;
+    margin-left: .3rem;
+}
+/* items de la barra vertical */
+.p-barra{
+    margin-top: 2rem;
+    margin-left: .2rem;
+}
+/* pie de paguina */
+footer{
+    background-color:coral;
+    width: 100%;
+    height: 5rem;
+    margin-top: -1.3%;
+}
+.p-pie{
+    text-align: center;
+    padding-top: 1.1rem;
+    letter-spacing: 6px;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+p:hover{
+    background-color:bisque;
+    color:black ;
+}
